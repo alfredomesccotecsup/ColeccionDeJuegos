@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		582CBF592AE87B71002BC10E /* JuegosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582CBF582AE87B71002BC10E /* JuegosViewController.swift */; };
 		58D2B07B2AE86C1600A720B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D2B07A2AE86C1600A720B9 /* AppDelegate.swift */; };
 		58D2B07D2AE86C1600A720B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D2B07C2AE86C1600A720B9 /* SceneDelegate.swift */; };
 		58D2B07F2AE86C1600A720B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D2B07E2AE86C1600A720B9 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		582CBF582AE87B71002BC10E /* JuegosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuegosViewController.swift; sourceTree = "<group>"; };
 		58D2B0772AE86C1600A720B9 /* MesccoColeccionDeJuegos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MesccoColeccionDeJuegos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58D2B07A2AE86C1600A720B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58D2B07C2AE86C1600A720B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				58D2B07C2AE86C1600A720B9 /* SceneDelegate.swift */,
 				58D2B07E2AE86C1600A720B9 /* ViewController.swift */,
 				58D2B0802AE86C1600A720B9 /* Main.storyboard */,
+				582CBF582AE87B71002BC10E /* JuegosViewController.swift */,
 				58D2B0862AE86C1800A720B9 /* Assets.xcassets */,
 				58D2B0882AE86C1800A720B9 /* LaunchScreen.storyboard */,
 				58D2B08B2AE86C1800A720B9 /* Info.plist */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				582CBF592AE87B71002BC10E /* JuegosViewController.swift in Sources */,
 				58D2B07F2AE86C1600A720B9 /* ViewController.swift in Sources */,
 				58D2B07B2AE86C1600A720B9 /* AppDelegate.swift in Sources */,
 				58D2B07D2AE86C1600A720B9 /* SceneDelegate.swift in Sources */,
