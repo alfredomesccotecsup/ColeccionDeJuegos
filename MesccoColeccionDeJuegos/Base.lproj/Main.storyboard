@@ -34,7 +34,7 @@
                     <navigationItem key="navigationItem" id="8YJ-bx-T0z">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="7YQ-9w-4I6">
                             <connections>
-                                <segue destination="zAP-Xa-GGJ" kind="show" id="fW2-D9-gkW"/>
+                                <segue destination="zAP-Xa-GGJ" kind="show" identifier="juegoSegue" id="fW2-D9-gkW"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -76,6 +76,15 @@
                                     <action selector="agregarTapped:" destination="zAP-Xa-GGJ" eventType="touchUpInside" id="JvB-gD-3ph"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Xt-6d-qeM">
+                                <rect key="frame" x="152" y="393" width="106" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Eliminar"/>
+                                <connections>
+                                    <action selector="eliminarTapped:" destination="zAP-Xa-GGJ" eventType="touchUpInside" id="Vim-l6-hQS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mAC-rD-WkL"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -104,6 +113,8 @@
                     </navigationItem>
                     <connections>
                         <outlet property="JuegoimageView" destination="Pn4-Md-nkX" id="8RF-vm-9Uj"/>
+                        <outlet property="agregarActualizarBoton" destination="Lcc-WV-iMR" id="MUU-Nh-tMe"/>
+                        <outlet property="eliminarBoton" destination="3Xt-6d-qeM" id="kmE-BC-tOh"/>
                         <outlet property="tituloTextFIeld" destination="1q5-f6-KDj" id="zaH-Og-7VJ"/>
                     </connections>
                 </viewController>
